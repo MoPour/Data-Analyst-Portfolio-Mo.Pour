@@ -1,0 +1,31 @@
+# Power BI Report Server Mini Project
+
+## Business Problem
+
+The goal of this project is to document an on-premises reporting workflow using Power BI Report Server concepts.
+
+## Tools Used
+
+- Power BI Desktop for Report Server
+- Power BI Report Server
+- Power BI report files
+- Documentation
+
+## Key Topics
+
+- Power BI Service vs Power BI Report Server
+- Power BI Desktop for Report Server
+- Publish flow
+- Folder structure
+- Permissions
+- Scheduled refresh concept
+
+## Planned Files
+
+- report-server-notes.md
+- publish-flow.md
+- screenshots/
+
+## Status
+
+In progress
