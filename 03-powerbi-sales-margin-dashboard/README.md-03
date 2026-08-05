@@ -1,0 +1,48 @@
+# Retail Sales & Margin Power BI Dashboard
+
+## Business Problem
+
+The goal of this project is to analyze retail sales, gross profit, profit margin, discount impact, product performance, and customer segments.
+
+## Dataset
+
+Retail Sales Dataset  
+Source: https://www.kaggle.com/datasets/buharishehu/retail-sales-dataset
+
+## Tools Used
+
+- Power BI
+- Power Query
+- DAX
+- Data Modeling
+
+## Key KPIs
+
+- Total Sales
+- Total Orders
+- Average Order Value
+- Gross Profit
+- Profit Margin %
+- Sales YoY %
+- Sales by Product
+- Sales by Region
+- Discount Impact
+
+## Planned Report Pages
+
+1. Executive Summary
+2. Sales & Margin Trend
+3. Product Performance
+4. Customer Analysis
+5. Region / Store / Channel Analysis
+
+## Planned Files
+
+- sales_margin_dashboard.pbix
+- dax_measures.md
+- data_model.png
+- screenshots/
+
+## Status
+
+In progress
