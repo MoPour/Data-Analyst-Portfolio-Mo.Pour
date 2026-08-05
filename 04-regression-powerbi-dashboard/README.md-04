@@ -1,0 +1,43 @@
+# Regression + Power BI Prediction Dashboard
+
+## Business Problem
+
+The goal of this project is to build a regression model in Python and visualize actual vs predicted results in Power BI.
+
+## Possible Prediction Target
+
+Option 1: Ticket Resolution Time  
+Option 2: Delivery Time  
+Option 3: Sales Amount
+
+## Tools Used
+
+- Python
+- Pandas
+- NumPy
+- scikit-learn
+- Power BI
+
+## Model Evaluation Metrics
+
+- MAE
+- RMSE
+- R²
+
+## Power BI Dashboard Pages
+
+1. Model Summary
+2. Actual vs Predicted
+3. Error Analysis
+
+## Planned Files
+
+- regression_model.ipynb
+- predictions.csv
+- prediction_dashboard.pbix
+- model_metrics.md
+- screenshots/
+
+## Status
+
+In progress
