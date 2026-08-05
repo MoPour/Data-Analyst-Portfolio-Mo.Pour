@@ -1,0 +1,16 @@
+# Power BI Report Server Publish Flow
+
+## Scenario
+
+The company wants to host internal operational reports on-premises.
+
+## Steps
+
+1. Create the report in Power BI Desktop for Report Server.
+2. Validate data source connection.
+3. Save the PBIX file.
+4. Upload the report to the Report Server web portal.
+5. Organize the report inside folders.
+6. Configure user access.
+7. Configure scheduled refresh if supported.
+8. Document limitations and maintenance considerations.
