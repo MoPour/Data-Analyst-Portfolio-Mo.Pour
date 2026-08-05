@@ -1,0 +1,16 @@
+# DAX Measures
+
+## Core Measures
+
+```DAX
+Total Sales = SUM(FactSales[SalesAmount])
+
+Total Orders = DISTINCTCOUNT(FactSales[OrderID])
+
+Average Order Value = DIVIDE([Total Sales], [Total Orders])
+
+Total Cost = SUM(FactSales[Cost])
+
+Gross Profit = [Total Sales] - [Total Cost]
+
+Profit Margin % = DIVIDE([Gross Profit], [Total Sales])
