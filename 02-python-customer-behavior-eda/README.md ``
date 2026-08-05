@@ -1,0 +1,39 @@
+# Python Customer Behavior EDA
+
+## Business Problem
+
+The goal of this project is to analyze online retail customer behavior to identify high-value customers, purchase patterns, revenue trends, and customer segments.
+
+## Dataset
+
+UCI Online Retail Dataset  
+Source: https://archive.ics.uci.edu/ml/datasets/Online+Retail
+
+## Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+## Key Analysis Areas
+
+- Data cleaning
+- Missing values
+- Duplicate records
+- Revenue calculation
+- Monthly revenue trend
+- Customer purchase frequency
+- Top products
+- Customer segmentation
+
+## Planned Files
+
+- customer_behavior_eda.ipynb
+- charts/
+- data_dictionary.md
+
+## Status
+
+In progress
