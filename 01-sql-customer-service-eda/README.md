@@ -31,3 +31,8 @@ Data Quality Notes: Missing values in priority & channel, inconsistent date form
 - Resolution time varies significantly across priority levels  
 
 ## Folder Structure
+## Project Files
+- `queries/01_data_quality.sql` – Data quality and profiling checks
+- `queries/02_kpi_analysis.sql` – KPI calculations (backlog, SLA risk, resolution performance)
+- `data_dictionary.md` – Column definitions and data quality notes
+
