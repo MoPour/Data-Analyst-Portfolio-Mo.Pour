@@ -1,31 +1,33 @@
-# Customer Service SQL EDA
+# 01 - Customer Service SQL EDA
 
 ## Business Problem
-The goal of this project is to analyze customer support ticket data to identify backlog, resolution time patterns, SLA risks, and customer service performance issues.
+The business needs to identify ticket backlog, SLA risks, and resolution bottlenecks to improve customer satisfaction and operational efficiency.
 
 ## Dataset
-Customer Support Ticket Dataset  
-Source: https://www.kaggle.com/datasets/suraj520/customer-support-ticket-dataset
+Source: Customer Support Ticket Dataset  
+Key Columns: ticket_id, status, priority, channel, created_at, first_response_time, time_to_resolution, csat  
+Data Quality Notes: Missing values in priority & channel, inconsistent date formats, potential duplicate ticket IDs.
 
 ## Tools Used
-- SQL
-- GitHub
-- Excel or CSV
+- SQL Server
+- SSMS
 
-## Key Analysis Areas
-- Data quality checks
-- Ticket status analysis
-- Ticket priority analysis
-- First response time
-- Resolution time
-- Customer satisfaction
-- Backlog analysis
+## Process
+1. Data import into SQL Server  
+2. Data Quality Checks (null, duplicate, data types, date range, record count)  
+3. Profiling & validation  
+4. KPI preparation for next phase  
 
-## Planned Files
-- 01_data_quality.sql
-- 02_kpi_analysis.sql
-- 03_advanced_sql.sql
-- 04_business_insights.sql
+## Data Quality Summary
+- **Nulls:** Priority & Channel contain missing values  
+- **Duplicates:** Duplicate ticket_id records detected  
+- **Date Issues:** Some created_at values fail TRY_CONVERT  
+- **Range:** Dataset spans from [min_date] to [max_date]  
+- **Record Count:** [X] total records  
 
-## Status
-In progress
+## Initial Insights
+- Missing priority values create SLA classification risks  
+- Channel distribution suggests operational bottlenecks  
+- Resolution time varies significantly across priority levels  
+
+## Folder Structure
